@@ -1,0 +1,46 @@
+      body { font-size: 80%; font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; }
+      ul#tabs { list-style-type: none; margin: 30px 0 0 0; padding: 0 0 0.3em 0; }
+      ul#tabs li { display: inline; }
+      ul#tabs li a { color: #42454a; background-color: #dedbde; border: 1px solid #c9c3ba; border-bottom: none; padding: 0.3em; text-decoration: none; }
+      ul#tabs li a:hover { background-color: #f1f0ee; }
+      ul#tabs li a.selected { color: #000; background-color: #f1f0ee; font-weight: bold; padding: 0.7em 0.3em 0.38em 0.3em; }
+      div.tabContent { border: 1px solid #c9c3ba; padding: 0.5em; background-color: #f1f0ee; }
+      div.tabContent.hide { display: none; }
+
+
+.apzstatushelptext {
+    position:relative;
+}
+.apzstatushelptext header {
+    display:block;
+    top:0;
+    left:0;
+    bottom:0;
+    width:0.9em; /* line-height of .wrapper div:first-child span */
+    overflow:hidden;
+    white-space:nowrap;
+}
+.apzstatushelptext header hh{
+    -moz-transform-origin:0 50%;
+    -moz-transform:rotate(-90deg) translate(-50%, 50%);
+    -webkit-transform-origin:0 50%;
+    -webkit-transform:rotate(-90deg) translate(-50%, 50%);
+    -o-transform-origin:0 50%;
+    -o-transform:rotate(-90deg) translate(-50%, 50%);
+    -ms-transform-origin:0 50%;
+    -ms-transform:rotate(-90deg) translate(-50%, 50%);
+    transform-origin:0 50%;
+    transform:rotate(-90deg) translate(-50%, 50%);
+    position:absolute;
+    top:0;
+    bottom:0;
+    height:2em; /* line-height of .wrapper div:first-child span */
+    margin:auto;
+    font-size:0.9em;
+    line-height:0.9em; /* Copy to other locations */
+}
+
+tr.spaceUnder > td
+{
+  padding-bottom: 10em;
+}

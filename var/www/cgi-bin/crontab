@@ -1,0 +1,2 @@
+*/1 * * * * /var/www/cgi-bin/daq_date.sh >/dev/null 2>&1
+* * * * * /var/www/cgi-bin/scheduler.sh

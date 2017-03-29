@@ -1,0 +1,2 @@
+*/5 * * * * /var/www/cgi-bin/clean_cache.sh >/dev/null 2>&1
+
